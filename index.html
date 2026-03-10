@@ -1,61 +1,87 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-<title>Orion Prime Technologies</title>
-
+<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+<title>Orion Prime Technologies</title>
+
 <link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
 
 <header>
-<h1>Orion Prime Technologies</h1>
-<p>Building Your Digital Presence</p>
-</header>
+
+<div class="logo">Orion Prime</div>
+
 <nav>
-  <div class="menu-toggle">☰</div>
-  <div class="menu">
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="services.html">Services</a>
-    <a href="projects.html">Projects</a>
-    <a href="contact.html">Contact</a>
-  </div>
+<a href="index.html">Home</a>
+<a href="services.html">Services</a>
+<a href="projects.html">Projects</a>
+<a href="about.html">About</a>
+<a href="contact.html">Contact</a>
 </nav>
 
+</header>
+
+
 <section class="hero">
-<h2>Welcome to Orion Prime Technologies</h2>
-<p>We build modern, responsive and professional websites for businesses and individuals.</p>
 
-<a href="contact.html" class="btn">Get a Quote</a>
+<div class="hero-text">
+
+<h1>Building <span>Powerful Websites</span> for Businesses</h1>
+
+<p>
+Orion Prime Technologies helps businesses grow online with modern,
+fast and professional websites.
+</p>
+
+<a href="contact.html">
+<button class="btn">Start Your Project</button>
+</a>
+
+</div>
+
+<img src="https://cdn-icons-png.flaticon.com/512/1055/1055687.png">
+
 </section>
 
-<section>
-<h2>Welcome</h2>
-<p>We create modern and professional websites for businesses.</p>
+
+<section class="services">
+
+<h2>Our Services</h2>
+
+<div class="service-box">
+
+<div class="card">
+<h3>Web Development</h3>
+<p>Modern responsive websites for businesses.</p>
+</div>
+
+<div class="card">
+<h3>Business Websites</h3>
+<p>Professional websites for shops and companies.</p>
+</div>
+
+<div class="card">
+<h3>Website Redesign</h3>
+<p>Upgrade your old website with a modern design.</p>
+</div>
+
+</div>
+
 </section>
+
 
 <footer>
-<p>© 2026 Orion Prime Technologies </p>
-</footer>
-<script>
-document.addEventListener("DOMContentLoaded", function() {
-  const toggle = document.querySelector(".menu-toggle");
-  const menu = document.querySelector(".menu");
 
-  toggle.addEventListener("click", () => {
-    if(menu.style.display === "flex"){
-      menu.style.display = "none";
-    } else {
-      menu.style.display = "flex";
-    }
-  });
-});
-</script>
+<p>© 2026 Orion Prime Technologies</p>
+
+</footer>
 
 </body>
-
 </html>
