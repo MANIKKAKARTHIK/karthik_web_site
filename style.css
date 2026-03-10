@@ -191,5 +191,67 @@ text-align:center;
 .about-text{
 text-align:center;
 }
+  /* COMPANY INTRO */
+
+.company-intro{
+padding:60px 40px;
+}
+
+.intro-container{
+display:flex;
+align-items:center;
+gap:40px;
+flex-wrap:wrap;
+}
+
+.intro-image img{
+width:150px;
+border-radius:10px;
+}
+
+.intro-box{
+background:#1e293b;
+padding:30px;
+border-radius:12px;
+max-width:600px;
+}
+
+.intro-box h2{
+margin-bottom:15px;
+color:#38bdf8;
+}
+
+
+/* COMPANY STATS */
+
+.company-stats{
+padding:60px 40px;
+text-align:center;
+}
+
+.stats-container{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:25px;
+margin-top:30px;
+}
+
+.stat-box{
+background:#1e293b;
+padding:30px;
+border-radius:12px;
+transition:0.3s;
+}
+
+.stat-box h3{
+font-size:40px;
+color:#38bdf8;
+}
+
+.stat-box:hover{
+transform:translateY(-10px);
+background:#334155;
+}
 
 }
+
