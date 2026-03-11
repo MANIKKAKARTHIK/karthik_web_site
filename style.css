@@ -252,6 +252,45 @@ color:#38bdf8;
 transform:translateY(-10px);
 background:#334155;
 }
+/* PROJECT FORM */
+
+.project-form{
+
+padding:60px 20px;
+max-width:600px;
+margin:auto;
 
 }
+
+.project-form h2{
+
+text-align:center;
+margin-bottom:30px;
+
+}
+
+form{
+
+display:flex;
+flex-direction:column;
+gap:15px;
+
+}
+
+input,select,textarea{
+
+padding:12px;
+border-radius:6px;
+border:none;
+
+}
+
+textarea{
+
+height:120px;
+
+}
+
+}
+
 
