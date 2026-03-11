@@ -61,6 +61,13 @@ Your response has been submitted successfully!
 <p>© 2026 Orion Prime Technologies</p>
 
 </footer>
+  <script>
+const params = new URLSearchParams(window.location.search);
+
+if (params.get("success") === "true") {
+document.getElementById("successMessage").style.display = "block";
+}
+</script>
 
 </body>
 </html>
