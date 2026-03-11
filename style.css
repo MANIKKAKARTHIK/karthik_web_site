@@ -290,8 +290,6 @@ textarea{
 height:120px;
 
 }
-/* FORM CENTER STYLE */
-
 .project-form{
 display:flex;
 flex-direction:column;
@@ -311,22 +309,15 @@ flex-direction:column;
 gap:18px;
 }
 
-/* EACH FIELD */
-
 .form-group{
 display:flex;
 flex-direction:column;
 }
 
-/* LABEL STYLE */
-
 .form-group label{
-font-size:15px;
 margin-bottom:6px;
 font-weight:600;
 }
-
-/* INPUT STYLE */
 
 .form-group input,
 .form-group select,
@@ -335,25 +326,22 @@ width:100%;
 padding:12px;
 border-radius:8px;
 border:none;
-font-size:14px;
 background:#f5f5f5;
+font-size:14px;
 }
-
-/* TEXTAREA */
 
 .form-group textarea{
 height:90px;
 resize:none;
 }
 
-/* BUTTON */
-
 .project-form button{
-margin-top:15px;
+margin-top:20px;
 width:200px;
 align-self:center;
 }
 }
+
 
 
 
