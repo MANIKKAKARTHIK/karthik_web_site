@@ -290,7 +290,51 @@ textarea{
 height:120px;
 
 }
+  .project-form{
+width:100%;
+display:flex;
+flex-direction:column;
+align-items:center;
+padding:60px 20px;
 }
+
+.project-form h2{
+font-size:32px;
+margin-bottom:30px;
+}
+
+.project-form form{
+display:flex;
+flex-direction:column;
+width:400px;
+gap:15px;
+}
+
+.project-form label{
+font-weight:600;
+margin-top:10px;
+}
+
+.project-form input,
+.project-form select,
+.project-form textarea{
+padding:10px;
+border-radius:6px;
+border:none;
+font-size:14px;
+}
+
+.project-form textarea{
+height:80px;
+resize:none;
+}
+
+.project-form button{
+margin-top:15px;
+align-self:center;
+}
+}
+
 
 
 
